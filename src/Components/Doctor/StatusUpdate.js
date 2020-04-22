@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 const StatusUpdate = (props) => {
     const { handleSubmit, register } = useForm()
     const onSubmit = (data, e) => {
-        fetch('http://localhost:4000/updateStatus', {
+        fetch('https://fierce-inlet-60798.herokuapp.com/updateStatus', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

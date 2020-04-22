@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 const AddPrescription = (props) => {
     const { handleSubmit, register, errors } = useForm();
     const onSubmit = (data, e) => {
-        fetch('http://localhost:4000/updatePrescription', {
+        fetch('https://fierce-inlet-60798.herokuapp.com/updatePrescription', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

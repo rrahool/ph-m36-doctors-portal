@@ -20,7 +20,7 @@ const Appointment = () => {
     // Current Appointment by Date
     const [appointments, setAppointments] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:4000/appointments').then(res => res.json()).then(data => {
+        fetch('https://fierce-inlet-60798.herokuapp.com/appointments').then(res => res.json()).then(data => {
             setAppointments(data);
         });
     }, []);

@@ -62,7 +62,7 @@ function AppointmentsServices(props) {
         const appointment = { name, gender, age, weight, phone, email, time, date }
 
         // post
-        fetch('http://localhost:4000/addAppointment', {
+        fetch('https://fierce-inlet-60798.herokuapp.com/addAppointment', {
             method: 'POST',
             body: JSON.stringify(appointment),
             headers: {
