@@ -1,0 +1,62 @@
+.appointments{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 80px 15px;
+}
+.appointments > h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #0fcfca;
+}
+
+.appointmentsServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px 30px;
+}
+.singleAppointment{
+    text-align: center;
+    padding: 50px 10px;
+    box-shadow: 0 0 25px 0 #ddd;
+}
+.singleAppointment h3{
+    color: #0fcfca;
+    margin-bottom: 10px;
+}
+.singleAppointment h4{
+    margin-bottom: 10px;
+}
+.singleAppointment p{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.appointmentForm input, .appointmentForm select{
+    width: 90%;
+    padding: 11px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+.appointmentForm select{
+    width: 100%;
+    padding: 10px 14px;
+}
+
+.twoChild{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.twoChild > *{
+    width: 80% !important;
+}
+
+.threeChild{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.threeChild > *{
+    width: 70% !important;
+}
