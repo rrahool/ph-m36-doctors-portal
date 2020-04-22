@@ -11,10 +11,6 @@
 # production
 /build
 /node_modules
-/.firebase
-.firebaserc
-firebase.json
-.gitignore
 
 # misc
 .DS_Store
